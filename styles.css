@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: bold sans-serif”, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.header {
+
+    background-color: #FFE600;
+    padding: 10px 0;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+
+.logo {
+    height: 100px;
+    margin-bottom: 10px;
+
+}
+
+.busca {
+    display: flex;
+    align-items: center;
+    gap: 5p;
+}
+
+.busca-input {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    height: 34px;
+    outline: none;
+}
+
+.buscar-btn {
+    padding: 10px;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-left: 2px;
+    height: 34px;
+}
+
+.buscar-btn:hover {
+    background-color: #f0f0f0;
+}
+
+.main {
+    padding: 30px 0;
+}
+
+.section-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+}
+
+.product-card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.product-card:hover {
+
+    transform: translateY(-10px);
+}
+
+.product-image {
+
+    width: 100%;
+    height: 200px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.product-title{
+    font-size: 18px;
+    margin-bottom: 10px;
+    height: 40px;
+    overflow: hidden;
+}
+
+.product-price {
+
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.product-discount {
+    font-size: 16px;
+    color: #4ABF83;
+    font-weight: bold;
+}
+
+.hero {
+    background-image: url(https://http2.mlstatic.com/D_NQ_963172-MLA97798572334_112025-OO.webp);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 24px;
+
+}
+
+
+.footer {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+    border-top: 2px solid #FDE600;
+}
+
+.footer p {
+    color: #777;
+    font-size: 14px;
+}
